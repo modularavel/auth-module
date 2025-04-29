@@ -1,9 +1,8 @@
 {
     "name": "modularavel/auth",
-    "description": "Modularavel: Laravel auth module and package production ready boilerplate",
+    "description": "Laravel auth module",
     "version": "1.0.0",
     "license": "MIT",
-    "type": "module",
     "keywords": [
         "laravel",
         "laravel modules",
@@ -12,15 +11,9 @@
         "modularavel modules",
         "modularavel packages",
         "modular",
-        "modular modules",
-        "modular packages",
         "modules",
-        "packages",
         "modularavel",
-        "modularavel/auth",
-        "auth",
         "auth module",
-        "auth package",
         "laravel auth module",
         "laravel auth package"
     ],
@@ -31,10 +24,6 @@
         }
     ],
     "homepage": "https://github.com/modularavel/auth",
-    "support": {
-        "issues": "https://github.com/modularavel/auth/issues",
-        "source": "https://github.com/modularavel/auth"
-    },
     "extra": {
         "laravel": {
             "providers": [],
