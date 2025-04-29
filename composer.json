@@ -1,0 +1,58 @@
+{
+    "name": "modularavel/auth",
+    "description": "Modularavel: Laravel auth module and package production ready boilerplate",
+    "version": "1.0.0",
+    "license": "MIT",
+    "type": "module",
+    "keywords": [
+        "laravel",
+        "laravel modules",
+        "laravel packages",
+        "modularavel",
+        "modularavel modules",
+        "modularavel packages",
+        "modular",
+        "modular modules",
+        "modular packages",
+        "modules",
+        "packages",
+        "modularavel",
+        "modularavel/auth",
+        "auth",
+        "auth module",
+        "auth package",
+        "laravel auth module",
+        "laravel auth package"
+    ],
+    "authors": [
+        {
+            "name": "Casimiro Rocha",
+            "email": "contato@crsistemas.dev.br"
+        }
+    ],
+    "homepage": "https://github.com/modularavel/auth",
+    "support": {
+        "issues": "https://github.com/modularavel/auth/issues",
+        "source": "https://github.com/modularavel/auth"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modularavel\\Auth\\": "src/",
+            "Modularavel\\Auth\\Database\\Factories\\": "database/factories/",
+            "Modularavel\\Auth\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modularavel\\Auth\\Tests\\": "tests/"
+        }
+    }
+}
