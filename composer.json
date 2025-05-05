@@ -1,8 +1,9 @@
 {
-    "name": "modularavel/auth",
+    "name": "modularavel/auth-module",
     "description": "Laravel auth module",
     "version": "1.0.0",
     "license": "MIT",
+    "type": "laravel-module",
     "keywords": [
         "laravel",
         "laravel modules",
